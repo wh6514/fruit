@@ -1,0 +1,2 @@
+
+4c5ead81bb3eb99b2c79517e23a008cebc020ef9	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/@jest%2fpattern","integrity":null,"time":1780651140088,"size":"262","metadata":{"time":1780651140088,"url":"http://registry.npmmirror.com/@jest%2fpattern","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 05 Jun 2026 09:19:00 GMT","location":"https://registry.npmmirror.com/@jest%2fpattern"},"options":{"compress":true},"status":301}}

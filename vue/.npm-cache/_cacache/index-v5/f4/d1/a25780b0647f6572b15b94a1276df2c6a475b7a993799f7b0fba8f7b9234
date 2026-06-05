@@ -1,0 +1,2 @@
+
+05098255a0d3cc26ec4cc6e2a45c0979f357c62f	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/has-flag","integrity":null,"time":1780651139923,"size":"262","metadata":{"time":1780651139923,"url":"http://registry.npmmirror.com/has-flag","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 05 Jun 2026 09:19:00 GMT","location":"https://registry.npmmirror.com/has-flag"},"options":{"compress":true},"status":301}}

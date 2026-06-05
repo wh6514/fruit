@@ -1,0 +1,2 @@
+
+764be71cf9051e6b0d3493ecc63724b00b713c32	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/color-name","integrity":null,"time":1780651139986,"size":"262","metadata":{"time":1780651139985,"url":"http://registry.npmmirror.com/color-name","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 05 Jun 2026 09:19:00 GMT","location":"https://registry.npmmirror.com/color-name"},"options":{"compress":true},"status":301}}

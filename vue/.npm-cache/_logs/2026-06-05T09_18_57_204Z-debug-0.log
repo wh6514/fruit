@@ -1,0 +1,627 @@
+0 verbose cli H:\A_Program\node\node.exe H:\A_Program\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:H:\A_Program\node\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\13429\AppData\Local\Microsoft\TypeScript\6.0\.npmrc
+5 silly config load:file:C:\Users\13429\.npmrc
+6 silly config load:file:H:\A_Program\node\node_global\etc\npmrc
+7 verbose title npm install @types/cross-spawn@ts6.0 @types/fs-extra@ts6.0 @types/inquirer@ts6.0 @types/progress@ts6.0 @types/semver@ts6.0 @types/jest@ts6.0 @types/node@ts6.0 @types/react@ts6.0
+8 verbose argv "install" "--ignore-scripts" "@types/cross-spawn@ts6.0" "@types/fs-extra@ts6.0" "@types/inquirer@ts6.0" "@types/progress@ts6.0" "@types/semver@ts6.0" "@types/jest@ts6.0" "@types/node@ts6.0" "@types/react@ts6.0" "--save-dev" "--user-agent" "typesInstaller/6.0.3"
+9 verbose logfile logs-max:10 dir:G:\Code\A_project\QingGe\vue\.npm-cache\_logs\2026-06-05T09_18_57_204Z-
+10 verbose logfile G:\Code\A_project\QingGe\vue\.npm-cache\_logs\2026-06-05T09_18_57_204Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:http://registry.npmmirror.com/@types%2fcross-spawn cache-miss
+15 silly packumentCache corgi:http://registry.npmmirror.com/@types%2ffs-extra cache-miss
+16 silly packumentCache corgi:http://registry.npmmirror.com/@types%2finquirer cache-miss
+17 silly packumentCache corgi:http://registry.npmmirror.com/@types%2fprogress cache-miss
+18 silly packumentCache corgi:http://registry.npmmirror.com/@types%2fsemver cache-miss
+19 silly packumentCache corgi:http://registry.npmmirror.com/@types%2fjest cache-miss
+20 silly packumentCache corgi:http://registry.npmmirror.com/@types%2fnode cache-miss
+21 silly packumentCache corgi:http://registry.npmmirror.com/@types%2freact cache-miss
+22 http fetch GET 200 https://registry.npmmirror.com/@types%2fcross-spawn 139ms (cache miss)
+23 silly packumentCache corgi:http://registry.npmmirror.com/@types%2fcross-spawn set size:1810 disposed:false
+24 http fetch GET 200 https://registry.npmmirror.com/@types%2fsemver 145ms (cache miss)
+25 silly packumentCache corgi:http://registry.npmmirror.com/@types%2fsemver set size:12230 disposed:false
+26 http fetch GET 200 https://registry.npmmirror.com/@types%2ffs-extra 148ms (cache miss)
+27 silly packumentCache corgi:http://registry.npmmirror.com/@types%2ffs-extra set size:12626 disposed:false
+28 http fetch GET 200 https://registry.npmmirror.com/@types%2finquirer 149ms (cache miss)
+29 silly packumentCache corgi:http://registry.npmmirror.com/@types%2finquirer set size:17292 disposed:false
+30 http fetch GET 200 https://registry.npmmirror.com/@types%2fjest 161ms (cache miss)
+31 silly packumentCache corgi:http://registry.npmmirror.com/@types%2fjest set size:53181 disposed:false
+32 http fetch GET 200 https://registry.npmmirror.com/@types%2fprogress 166ms (cache miss)
+33 silly packumentCache corgi:http://registry.npmmirror.com/@types%2fprogress set size:3099 disposed:false
+34 http fetch GET 200 https://registry.npmmirror.com/@types%2freact 184ms (cache miss)
+35 silly packumentCache corgi:http://registry.npmmirror.com/@types%2freact set size:177839 disposed:false
+36 http fetch GET 200 https://registry.npmmirror.com/@types%2fnode 214ms (cache miss)
+37 silly packumentCache corgi:http://registry.npmmirror.com/@types%2fnode set size:559724 disposed:false
+38 silly idealTree buildDeps
+39 silly fetch manifest @types/cross-spawn@6.0.6
+40 silly packumentCache full:http://registry.npmmirror.com/@types%2fcross-spawn cache-miss
+41 http fetch GET 200 https://registry.npmmirror.com/@types%2fcross-spawn 90ms (cache miss)
+42 silly packumentCache full:http://registry.npmmirror.com/@types%2fcross-spawn set size:3886 disposed:false
+43 silly fetch manifest @types/semver@7.7.1
+44 silly packumentCache full:http://registry.npmmirror.com/@types%2fsemver cache-miss
+45 http fetch GET 200 https://registry.npmmirror.com/@types%2fsemver 87ms (cache miss)
+46 silly packumentCache full:http://registry.npmmirror.com/@types%2fsemver set size:21992 disposed:false
+47 silly fetch manifest @types/fs-extra@11.0.4
+48 silly packumentCache full:http://registry.npmmirror.com/@types%2ffs-extra cache-miss
+49 http fetch GET 200 https://registry.npmmirror.com/@types%2ffs-extra 54ms (cache miss)
+50 silly packumentCache full:http://registry.npmmirror.com/@types%2ffs-extra set size:24997 disposed:false
+51 silly fetch manifest @types/inquirer@9.0.9
+52 silly packumentCache full:http://registry.npmmirror.com/@types%2finquirer cache-miss
+53 http fetch GET 200 https://registry.npmmirror.com/@types%2finquirer 100ms (cache miss)
+54 silly packumentCache full:http://registry.npmmirror.com/@types%2finquirer set size:28484 disposed:false
+55 silly fetch manifest @types/jest@30.0.0
+56 silly packumentCache full:http://registry.npmmirror.com/@types%2fjest cache-miss
+57 http fetch GET 200 https://registry.npmmirror.com/@types%2fjest 76ms (cache miss)
+58 silly packumentCache full:http://registry.npmmirror.com/@types%2fjest set size:95868 disposed:false
+59 silly fetch manifest @types/progress@2.0.7
+60 silly packumentCache full:http://registry.npmmirror.com/@types%2fprogress cache-miss
+61 http fetch GET 200 https://registry.npmmirror.com/@types%2fprogress 88ms (cache miss)
+62 silly packumentCache full:http://registry.npmmirror.com/@types%2fprogress set size:6307 disposed:false
+63 silly fetch manifest @types/react@19.2.16
+64 silly packumentCache full:http://registry.npmmirror.com/@types%2freact cache-miss
+65 http fetch GET 200 https://registry.npmmirror.com/@types%2freact 96ms (cache miss)
+66 silly packumentCache full:http://registry.npmmirror.com/@types%2freact set size:335870 disposed:false
+67 silly fetch manifest @types/node@25.9.1
+68 silly packumentCache full:http://registry.npmmirror.com/@types%2fnode cache-miss
+69 http fetch GET 200 https://registry.npmmirror.com/@types%2fnode 212ms (cache miss)
+70 silly packumentCache full:http://registry.npmmirror.com/@types%2fnode set size:1158132 disposed:false
+71 silly placeDep ROOT @types/cross-spawn@6.0.6 OK for:  want: 6.0.6
+72 silly placeDep ROOT @types/fs-extra@11.0.4 OK for:  want: 11.0.4
+73 silly placeDep ROOT @types/inquirer@9.0.9 OK for:  want: 9.0.9
+74 silly placeDep ROOT @types/jest@30.0.0 OK for:  want: 30.0.0
+75 silly placeDep ROOT @types/node@25.9.1 OK for:  want: 25.9.1
+76 silly placeDep ROOT @types/progress@2.0.7 OK for:  want: 2.0.7
+77 silly placeDep ROOT @types/react@19.2.16 OK for:  want: 19.2.16
+78 silly placeDep ROOT @types/semver@7.7.1 OK for:  want: 7.7.1
+79 silly fetch manifest @types/node@*
+80 silly packumentCache full:http://registry.npmmirror.com/@types%2fnode cache-miss
+81 silly fetch manifest @types/jsonfile@*
+82 silly packumentCache full:http://registry.npmmirror.com/@types%2fjsonfile cache-miss
+83 silly fetch manifest @types/node@*
+84 silly packumentCache full:http://registry.npmmirror.com/@types%2fnode cache-miss
+85 silly fetch manifest rxjs@^7.2.0
+86 silly packumentCache full:http://registry.npmmirror.com/rxjs cache-miss
+87 silly fetch manifest @types/through@*
+88 silly packumentCache full:http://registry.npmmirror.com/@types%2fthrough cache-miss
+89 http fetch GET 200 https://registry.npmmirror.com/rxjs 62ms (cache miss)
+90 silly packumentCache full:http://registry.npmmirror.com/rxjs set size:112542 disposed:false
+91 silly fetch manifest expect@^30.0.0
+92 silly packumentCache full:http://registry.npmmirror.com/expect cache-miss
+93 http cache https://registry.npmmirror.com/@types%2fnode 93ms (cache hit)
+94 silly packumentCache full:http://registry.npmmirror.com/@types%2fnode set size:10261550 disposed:false
+95 silly fetch manifest pretty-format@^30.0.0
+96 silly packumentCache full:http://registry.npmmirror.com/pretty-format cache-miss
+97 http cache https://registry.npmmirror.com/@types%2fnode 165ms (cache hit)
+98 silly packumentCache full:http://registry.npmmirror.com/@types%2fnode set size:10261550 disposed:false
+99 silly fetch manifest undici-types@>=7.24.0 <7.24.7
+100 silly packumentCache full:http://registry.npmmirror.com/undici-types cache-miss
+101 http fetch GET 200 https://registry.npmmirror.com/@types%2fthrough 269ms (cache miss)
+102 silly packumentCache full:http://registry.npmmirror.com/@types%2fthrough set size:5838 disposed:false
+103 silly fetch manifest csstype@^3.2.2
+104 silly packumentCache full:http://registry.npmmirror.com/csstype cache-miss
+105 http fetch GET 200 https://registry.npmmirror.com/@types%2fjsonfile 271ms (cache miss)
+106 silly packumentCache full:http://registry.npmmirror.com/@types%2fjsonfile set size:6906 disposed:false
+107 http fetch GET 200 https://registry.npmmirror.com/csstype 45ms (cache miss)
+108 silly packumentCache full:http://registry.npmmirror.com/csstype set size:41498 disposed:false
+109 http fetch GET 200 https://registry.npmmirror.com/undici-types 62ms (cache miss)
+110 silly packumentCache full:http://registry.npmmirror.com/undici-types set size:42325 disposed:false
+111 http fetch GET 200 https://registry.npmmirror.com/expect 284ms (cache miss)
+112 silly packumentCache full:http://registry.npmmirror.com/expect set size:107098 disposed:false
+113 http fetch GET 200 https://registry.npmmirror.com/pretty-format 213ms (cache miss)
+114 silly packumentCache full:http://registry.npmmirror.com/pretty-format set size:101518 disposed:false
+115 silly placeDep ROOT @types/jsonfile@6.1.4 OK for: @types/fs-extra@11.0.4 want: *
+116 silly placeDep ROOT @types/through@0.0.33 OK for: @types/inquirer@9.0.9 want: *
+117 silly placeDep ROOT rxjs@7.8.2 OK for: @types/inquirer@9.0.9 want: ^7.2.0
+118 silly fetch manifest tslib@^2.1.0
+119 silly packumentCache full:http://registry.npmmirror.com/tslib cache-miss
+120 http fetch GET 200 https://registry.npmmirror.com/tslib 35ms (cache miss)
+121 silly packumentCache full:http://registry.npmmirror.com/tslib set size:33171 disposed:false
+122 silly placeDep ROOT expect@30.4.1 OK for: @types/jest@30.0.0 want: ^30.0.0
+123 silly placeDep ROOT pretty-format@30.4.1 OK for: @types/jest@30.0.0 want: ^30.0.0
+124 silly fetch manifest @jest/expect-utils@30.4.1
+125 silly packumentCache full:http://registry.npmmirror.com/@jest%2fexpect-utils cache-miss
+126 silly fetch manifest @jest/get-type@30.1.0
+127 silly packumentCache full:http://registry.npmmirror.com/@jest%2fget-type cache-miss
+128 silly fetch manifest jest-matcher-utils@30.4.1
+129 silly packumentCache full:http://registry.npmmirror.com/jest-matcher-utils cache-miss
+130 silly fetch manifest jest-message-util@30.4.1
+131 silly packumentCache full:http://registry.npmmirror.com/jest-message-util cache-miss
+132 silly fetch manifest jest-mock@30.4.1
+133 silly packumentCache full:http://registry.npmmirror.com/jest-mock cache-miss
+134 http fetch GET 200 https://registry.npmmirror.com/@jest%2fget-type 99ms (cache miss)
+135 silly packumentCache full:http://registry.npmmirror.com/@jest%2fget-type set size:2946 disposed:false
+136 silly fetch manifest jest-util@30.4.1
+137 silly packumentCache full:http://registry.npmmirror.com/jest-util cache-miss
+138 http fetch GET 200 https://registry.npmmirror.com/@jest%2fexpect-utils 103ms (cache miss)
+139 silly packumentCache full:http://registry.npmmirror.com/@jest%2fexpect-utils set size:47276 disposed:false
+140 silly fetch manifest @jest/schemas@30.4.1
+141 silly packumentCache full:http://registry.npmmirror.com/@jest%2fschemas cache-miss
+142 http fetch GET 200 https://registry.npmmirror.com/jest-matcher-utils 107ms (cache miss)
+143 silly packumentCache full:http://registry.npmmirror.com/jest-matcher-utils set size:97718 disposed:false
+144 silly fetch manifest ansi-styles@^5.2.0
+145 silly packumentCache full:http://registry.npmmirror.com/ansi-styles cache-miss
+146 http fetch GET 200 https://registry.npmmirror.com/jest-message-util 116ms (cache miss)
+147 silly packumentCache full:http://registry.npmmirror.com/jest-message-util set size:86322 disposed:false
+148 silly fetch manifest react-is-18@npm:react-is@^18.3.1
+149 silly packumentCache full:http://registry.npmmirror.com/react-is cache-miss
+150 http fetch GET 200 https://registry.npmmirror.com/jest-mock 128ms (cache miss)
+151 silly packumentCache full:http://registry.npmmirror.com/jest-mock set size:96092 disposed:false
+152 silly fetch manifest react-is-19@npm:react-is@^19.2.5
+153 silly packumentCache full:http://registry.npmmirror.com/react-is cache-miss
+154 http fetch GET 200 https://registry.npmmirror.com/@jest%2fschemas 39ms (cache miss)
+155 silly packumentCache full:http://registry.npmmirror.com/@jest%2fschemas set size:20280 disposed:false
+156 http fetch GET 200 https://registry.npmmirror.com/ansi-styles 39ms (cache miss)
+157 silly packumentCache full:http://registry.npmmirror.com/ansi-styles set size:13769 disposed:false
+158 http fetch GET 200 https://registry.npmmirror.com/jest-util 105ms (cache miss)
+159 silly packumentCache full:http://registry.npmmirror.com/jest-util set size:101105 disposed:false
+160 http fetch GET 200 https://registry.npmmirror.com/react-is 131ms (cache miss)
+161 silly packumentCache full:http://registry.npmmirror.com/react-is set size:1141194 disposed:false
+162 http fetch GET 200 https://registry.npmmirror.com/react-is 165ms (cache miss)
+163 silly packumentCache full:http://registry.npmmirror.com/react-is set size:1141194 disposed:false
+164 silly placeDep ROOT undici-types@7.24.6 OK for: @types/node@25.9.1 want: >=7.24.0 <7.24.7
+165 silly placeDep ROOT csstype@3.2.3 OK for: @types/react@19.2.16 want: ^3.2.2
+166 silly placeDep ROOT @jest/expect-utils@30.4.1 OK for: expect@30.4.1 want: 30.4.1
+167 silly placeDep ROOT @jest/get-type@30.1.0 OK for: expect@30.4.1 want: 30.1.0
+168 silly placeDep ROOT jest-matcher-utils@30.4.1 OK for: expect@30.4.1 want: 30.4.1
+169 silly placeDep ROOT jest-message-util@30.4.1 OK for: expect@30.4.1 want: 30.4.1
+170 silly placeDep ROOT jest-mock@30.4.1 OK for: expect@30.4.1 want: 30.4.1
+171 silly placeDep ROOT jest-util@30.4.1 OK for: expect@30.4.1 want: 30.4.1
+172 silly fetch manifest chalk@^4.1.2
+173 silly packumentCache full:http://registry.npmmirror.com/chalk cache-miss
+174 silly fetch manifest jest-diff@30.4.1
+175 silly packumentCache full:http://registry.npmmirror.com/jest-diff cache-miss
+176 silly fetch manifest @babel/code-frame@^7.27.1
+177 silly packumentCache full:http://registry.npmmirror.com/@babel%2fcode-frame cache-miss
+178 silly fetch manifest @jest/types@30.4.1
+179 silly packumentCache full:http://registry.npmmirror.com/@jest%2ftypes cache-miss
+180 silly fetch manifest @types/stack-utils@^2.0.3
+181 silly packumentCache full:http://registry.npmmirror.com/@types%2fstack-utils cache-miss
+182 http fetch GET 200 https://registry.npmmirror.com/@babel%2fcode-frame 47ms (cache miss)
+183 silly packumentCache full:http://registry.npmmirror.com/@babel%2fcode-frame set size:35665 disposed:false
+184 silly fetch manifest chalk@^4.1.2
+185 silly packumentCache full:http://registry.npmmirror.com/chalk cache-miss
+186 http fetch GET 200 https://registry.npmmirror.com/chalk 75ms (cache miss)
+187 silly packumentCache full:http://registry.npmmirror.com/chalk set size:24910 disposed:false
+188 silly fetch manifest graceful-fs@^4.2.11
+189 silly packumentCache full:http://registry.npmmirror.com/graceful-fs cache-miss
+190 http fetch GET 200 https://registry.npmmirror.com/chalk 35ms (cache miss)
+191 silly packumentCache full:http://registry.npmmirror.com/chalk set size:24910 disposed:false
+192 silly packumentCache full:http://registry.npmmirror.com/chalk dispose
+193 silly fetch manifest picomatch@^4.0.3
+194 silly packumentCache full:http://registry.npmmirror.com/picomatch cache-miss
+195 http fetch GET 200 https://registry.npmmirror.com/@types%2fstack-utils 100ms (cache miss)
+196 silly packumentCache full:http://registry.npmmirror.com/@types%2fstack-utils set size:3572 disposed:false
+197 silly fetch manifest slash@^3.0.0
+198 silly packumentCache full:http://registry.npmmirror.com/slash cache-miss
+199 http fetch GET 200 https://registry.npmmirror.com/jest-diff 110ms (cache miss)
+200 silly packumentCache full:http://registry.npmmirror.com/jest-diff set size:102384 disposed:false
+201 silly fetch manifest stack-utils@^2.0.6
+202 silly packumentCache full:http://registry.npmmirror.com/stack-utils cache-miss
+203 http fetch GET 200 https://registry.npmmirror.com/@jest%2ftypes 121ms (cache miss)
+204 silly packumentCache full:http://registry.npmmirror.com/@jest%2ftypes set size:59736 disposed:false
+205 silly fetch manifest ci-info@^4.2.0
+206 silly packumentCache full:http://registry.npmmirror.com/ci-info cache-miss
+207 http fetch GET 200 https://registry.npmmirror.com/graceful-fs 49ms (cache miss)
+208 silly packumentCache full:http://registry.npmmirror.com/graceful-fs set size:23015 disposed:false
+209 silly fetch manifest picomatch@^4.0.3
+210 silly packumentCache full:http://registry.npmmirror.com/picomatch cache-miss
+211 http fetch GET 200 https://registry.npmmirror.com/picomatch 52ms (cache miss)
+212 silly packumentCache full:http://registry.npmmirror.com/picomatch set size:23240 disposed:false
+213 http fetch GET 200 https://registry.npmmirror.com/slash 46ms (cache miss)
+214 silly packumentCache full:http://registry.npmmirror.com/slash set size:5617 disposed:false
+215 http fetch GET 200 https://registry.npmmirror.com/stack-utils 61ms (cache miss)
+216 silly packumentCache full:http://registry.npmmirror.com/stack-utils set size:8959 disposed:false
+217 http cache https://registry.npmmirror.com/picomatch 50ms (cache hit)
+218 silly packumentCache full:http://registry.npmmirror.com/picomatch set size:107758 disposed:false
+219 silly packumentCache full:http://registry.npmmirror.com/picomatch dispose
+220 http fetch GET 200 https://registry.npmmirror.com/ci-info 97ms (cache miss)
+221 silly packumentCache full:http://registry.npmmirror.com/ci-info set size:23085 disposed:false
+222 silly placeDep ROOT chalk@4.1.2 OK for: jest-matcher-utils@30.4.1 want: ^4.1.2
+223 silly placeDep ROOT jest-diff@30.4.1 OK for: jest-matcher-utils@30.4.1 want: 30.4.1
+224 silly fetch manifest ansi-styles@^4.1.0
+225 silly packumentCache full:http://registry.npmmirror.com/ansi-styles cache-hit
+226 silly fetch manifest supports-color@^7.1.0
+227 silly packumentCache full:http://registry.npmmirror.com/supports-color cache-miss
+228 silly fetch manifest @jest/diff-sequences@30.4.0
+229 silly packumentCache full:http://registry.npmmirror.com/@jest%2fdiff-sequences cache-miss
+230 http fetch GET 200 https://registry.npmmirror.com/@jest%2fdiff-sequences 100ms (cache miss)
+231 silly packumentCache full:http://registry.npmmirror.com/@jest%2fdiff-sequences set size:9514 disposed:false
+232 http fetch GET 200 https://registry.npmmirror.com/supports-color 111ms (cache miss)
+233 silly packumentCache full:http://registry.npmmirror.com/supports-color set size:23036 disposed:false
+234 silly placeDep ROOT ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+235 silly placeDep ROOT supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+236 silly fetch manifest color-convert@^2.0.1
+237 silly packumentCache full:http://registry.npmmirror.com/color-convert cache-miss
+238 silly fetch manifest has-flag@^4.0.0
+239 silly packumentCache full:http://registry.npmmirror.com/has-flag cache-miss
+240 http fetch GET 200 https://registry.npmmirror.com/has-flag 45ms (cache miss)
+241 silly packumentCache full:http://registry.npmmirror.com/has-flag set size:3321 disposed:false
+242 http fetch GET 200 https://registry.npmmirror.com/color-convert 55ms (cache miss)
+243 silly packumentCache full:http://registry.npmmirror.com/color-convert set size:13807 disposed:false
+244 silly placeDep ROOT color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+245 silly fetch manifest color-name@~1.1.4
+246 silly packumentCache full:http://registry.npmmirror.com/color-name cache-miss
+247 http fetch GET 200 https://registry.npmmirror.com/color-name 85ms (cache miss)
+248 silly packumentCache full:http://registry.npmmirror.com/color-name set size:5269 disposed:false
+249 silly placeDep ROOT color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+250 silly placeDep ROOT @jest/diff-sequences@30.4.0 OK for: jest-diff@30.4.1 want: 30.4.0
+251 silly placeDep ROOT @babel/code-frame@7.29.7 OK for: jest-message-util@30.4.1 want: ^7.27.1
+252 silly placeDep ROOT @jest/types@30.4.1 OK for: jest-message-util@30.4.1 want: 30.4.1
+253 silly placeDep ROOT @types/stack-utils@2.0.3 OK for: jest-message-util@30.4.1 want: ^2.0.3
+254 silly placeDep ROOT graceful-fs@4.2.11 OK for: jest-message-util@30.4.1 want: ^4.2.11
+255 silly placeDep ROOT picomatch@4.0.4 OK for: jest-message-util@30.4.1 want: ^4.0.3
+256 silly placeDep ROOT slash@3.0.0 OK for: jest-message-util@30.4.1 want: ^3.0.0
+257 silly placeDep ROOT stack-utils@2.0.6 OK for: jest-message-util@30.4.1 want: ^2.0.6
+258 silly fetch manifest @babel/helper-validator-identifier@^7.29.7
+259 silly packumentCache full:http://registry.npmmirror.com/@babel%2fhelper-validator-identifier cache-miss
+260 silly fetch manifest js-tokens@^4.0.0
+261 silly packumentCache full:http://registry.npmmirror.com/js-tokens cache-miss
+262 silly fetch manifest picocolors@^1.1.1
+263 silly packumentCache full:http://registry.npmmirror.com/picocolors cache-miss
+264 silly fetch manifest @jest/pattern@30.4.0
+265 silly packumentCache full:http://registry.npmmirror.com/@jest%2fpattern cache-miss
+266 silly fetch manifest @types/istanbul-lib-coverage@^2.0.6
+267 silly packumentCache full:http://registry.npmmirror.com/@types%2fistanbul-lib-coverage cache-miss
+268 http fetch GET 200 https://registry.npmmirror.com/@types%2fistanbul-lib-coverage 46ms (cache miss)
+269 silly packumentCache full:http://registry.npmmirror.com/@types%2fistanbul-lib-coverage set size:4235 disposed:false
+270 silly fetch manifest @types/istanbul-reports@^3.0.4
+271 silly packumentCache full:http://registry.npmmirror.com/@types%2fistanbul-reports cache-miss
+272 http fetch GET 200 https://registry.npmmirror.com/picocolors 57ms (cache miss)
+273 silly packumentCache full:http://registry.npmmirror.com/picocolors set size:4040 disposed:false
+274 silly fetch manifest @types/yargs@^17.0.33
+275 silly packumentCache full:http://registry.npmmirror.com/@types%2fyargs cache-miss
+276 http fetch GET 200 https://registry.npmmirror.com/js-tokens 60ms (cache miss)
+277 silly packumentCache full:http://registry.npmmirror.com/js-tokens set size:9897 disposed:false
+278 silly fetch manifest escape-string-regexp@^2.0.0
+279 silly packumentCache full:http://registry.npmmirror.com/escape-string-regexp cache-miss
+280 http fetch GET 200 https://registry.npmmirror.com/@babel%2fhelper-validator-identifier 63ms (cache miss)
+281 silly packumentCache full:http://registry.npmmirror.com/@babel%2fhelper-validator-identifier set size:24690 disposed:false
+282 http fetch GET 200 https://registry.npmmirror.com/@jest%2fpattern 92ms (cache miss)
+283 silly packumentCache full:http://registry.npmmirror.com/@jest%2fpattern set size:4253 disposed:false
+284 http fetch GET 200 https://registry.npmmirror.com/escape-string-regexp 44ms (cache miss)
+285 silly packumentCache full:http://registry.npmmirror.com/escape-string-regexp set size:4070 disposed:false
+286 http fetch GET 200 https://registry.npmmirror.com/@types%2fistanbul-reports 93ms (cache miss)
+287 silly packumentCache full:http://registry.npmmirror.com/@types%2fistanbul-reports set size:4444 disposed:false
+288 http fetch GET 200 https://registry.npmmirror.com/@types%2fyargs 99ms (cache miss)
+289 silly packumentCache full:http://registry.npmmirror.com/@types%2fyargs set size:61891 disposed:false
+290 silly placeDep ROOT @babel/helper-validator-identifier@7.29.7 OK for: @babel/code-frame@7.29.7 want: ^7.29.7
+291 silly placeDep ROOT js-tokens@4.0.0 OK for: @babel/code-frame@7.29.7 want: ^4.0.0
+292 silly placeDep ROOT picocolors@1.1.1 OK for: @babel/code-frame@7.29.7 want: ^1.1.1
+293 silly placeDep ROOT @jest/pattern@30.4.0 OK for: @jest/types@30.4.1 want: 30.4.0
+294 silly placeDep ROOT @jest/schemas@30.4.1 OK for: @jest/types@30.4.1 want: 30.4.1
+295 silly placeDep ROOT @types/istanbul-lib-coverage@2.0.6 OK for: @jest/types@30.4.1 want: ^2.0.6
+296 silly placeDep ROOT @types/istanbul-reports@3.0.4 OK for: @jest/types@30.4.1 want: ^3.0.4
+297 silly placeDep ROOT @types/yargs@17.0.35 OK for: @jest/types@30.4.1 want: ^17.0.33
+298 silly fetch manifest jest-regex-util@30.4.0
+299 silly packumentCache full:http://registry.npmmirror.com/jest-regex-util cache-miss
+300 silly fetch manifest @sinclair/typebox@^0.34.0
+301 silly packumentCache full:http://registry.npmmirror.com/@sinclair%2ftypebox cache-miss
+302 silly fetch manifest @types/istanbul-lib-report@*
+303 silly packumentCache full:http://registry.npmmirror.com/@types%2fistanbul-lib-report cache-miss
+304 silly fetch manifest @types/yargs-parser@*
+305 silly packumentCache full:http://registry.npmmirror.com/@types%2fyargs-parser cache-miss
+306 http fetch GET 200 https://registry.npmmirror.com/@types%2fistanbul-lib-report 95ms (cache miss)
+307 silly packumentCache full:http://registry.npmmirror.com/@types%2fistanbul-lib-report set size:3166 disposed:false
+308 http fetch GET 200 https://registry.npmmirror.com/jest-regex-util 113ms (cache miss)
+309 silly packumentCache full:http://registry.npmmirror.com/jest-regex-util set size:40658 disposed:false
+310 http fetch GET 200 https://registry.npmmirror.com/@sinclair%2ftypebox 114ms (cache miss)
+311 silly packumentCache full:http://registry.npmmirror.com/@sinclair%2ftypebox set size:231992 disposed:false
+312 http fetch GET 200 https://registry.npmmirror.com/@types%2fyargs-parser 123ms (cache miss)
+313 silly packumentCache full:http://registry.npmmirror.com/@types%2fyargs-parser set size:8809 disposed:false
+314 silly placeDep ROOT jest-regex-util@30.4.0 OK for: @jest/pattern@30.4.0 want: 30.4.0
+315 silly placeDep ROOT @sinclair/typebox@0.34.49 OK for: @jest/schemas@30.4.1 want: ^0.34.0
+316 silly placeDep ROOT @types/istanbul-lib-report@3.0.3 OK for: @types/istanbul-reports@3.0.4 want: *
+317 silly placeDep ROOT @types/yargs-parser@21.0.3 OK for: @types/yargs@17.0.35 want: *
+318 silly placeDep ROOT ci-info@4.4.0 OK for: jest-util@30.4.1 want: ^4.2.0
+319 silly placeDep node_modules/pretty-format ansi-styles@5.2.0 OK for: pretty-format@30.4.1 want: ^5.2.0
+320 silly placeDep ROOT react-is-18@18.3.1 OK for: pretty-format@30.4.1 want: npm:react-is@^18.3.1
+321 silly placeDep ROOT react-is-19@19.2.7 OK for: pretty-format@30.4.1 want: npm:react-is@^19.2.5
+322 silly placeDep ROOT tslib@2.8.1 OK for: rxjs@7.8.2 want: ^2.1.0
+323 silly placeDep ROOT escape-string-regexp@2.0.0 OK for: stack-utils@2.0.6 want: ^2.0.0
+324 silly placeDep ROOT has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+325 silly reify moves {}
+326 silly audit bulk request {
+326 silly audit   'types-registry': [ '0.1.772' ],
+326 silly audit   '@types/cross-spawn': [ '6.0.6' ],
+326 silly audit   '@types/fs-extra': [ '11.0.4' ],
+326 silly audit   '@types/inquirer': [ '9.0.9' ],
+326 silly audit   '@types/jest': [ '30.0.0' ],
+326 silly audit   '@types/node': [ '25.9.1' ],
+326 silly audit   '@types/progress': [ '2.0.7' ],
+326 silly audit   '@types/react': [ '19.2.16' ],
+326 silly audit   '@types/semver': [ '7.7.1' ],
+326 silly audit   '@types/jsonfile': [ '6.1.4' ],
+326 silly audit   '@types/through': [ '0.0.33' ],
+326 silly audit   rxjs: [ '7.8.2' ],
+326 silly audit   expect: [ '30.4.1' ],
+326 silly audit   'pretty-format': [ '30.4.1' ],
+326 silly audit   'undici-types': [ '7.24.6' ],
+326 silly audit   csstype: [ '3.2.3' ],
+326 silly audit   '@jest/expect-utils': [ '30.4.1' ],
+326 silly audit   '@jest/get-type': [ '30.1.0' ],
+326 silly audit   'jest-matcher-utils': [ '30.4.1' ],
+326 silly audit   'jest-message-util': [ '30.4.1' ],
+326 silly audit   'jest-mock': [ '30.4.1' ],
+326 silly audit   'jest-util': [ '30.4.1' ],
+326 silly audit   chalk: [ '4.1.2' ],
+326 silly audit   'jest-diff': [ '30.4.1' ],
+326 silly audit   'ansi-styles': [ '4.3.0', '5.2.0' ],
+326 silly audit   'supports-color': [ '7.2.0' ],
+326 silly audit   'color-convert': [ '2.0.1' ],
+326 silly audit   'color-name': [ '1.1.4' ],
+326 silly audit   '@jest/diff-sequences': [ '30.4.0' ],
+326 silly audit   '@babel/code-frame': [ '7.29.7' ],
+326 silly audit   '@jest/types': [ '30.4.1' ],
+326 silly audit   '@types/stack-utils': [ '2.0.3' ],
+326 silly audit   'graceful-fs': [ '4.2.11' ],
+326 silly audit   picomatch: [ '4.0.4' ],
+326 silly audit   slash: [ '3.0.0' ],
+326 silly audit   'stack-utils': [ '2.0.6' ],
+326 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+326 silly audit   'js-tokens': [ '4.0.0' ],
+326 silly audit   picocolors: [ '1.1.1' ],
+326 silly audit   '@jest/pattern': [ '30.4.0' ],
+326 silly audit   '@jest/schemas': [ '30.4.1' ],
+326 silly audit   '@types/istanbul-lib-coverage': [ '2.0.6' ],
+326 silly audit   '@types/istanbul-reports': [ '3.0.4' ],
+326 silly audit   '@types/yargs': [ '17.0.35' ],
+326 silly audit   'jest-regex-util': [ '30.4.0' ],
+326 silly audit   '@sinclair/typebox': [ '0.34.49' ],
+326 silly audit   '@types/istanbul-lib-report': [ '3.0.3' ],
+326 silly audit   '@types/yargs-parser': [ '21.0.3' ],
+326 silly audit   'ci-info': [ '4.4.0' ],
+326 silly audit   'react-is': [ '18.3.1', '19.2.7' ],
+326 silly audit   tslib: [ '2.8.1' ],
+326 silly audit   'escape-string-regexp': [ '2.0.0' ],
+326 silly audit   'has-flag': [ '4.0.0' ]
+326 silly audit }
+327 http cache has-flag@https://registry.npmmirror.com/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+328 http cache tslib@https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+329 http cache escape-string-regexp@https://registry.npmmirror.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz 0ms (cache hit)
+330 http cache react-is-19@https://registry.npmmirror.com/react-is/-/react-is-19.2.7.tgz 0ms (cache hit)
+331 http cache ci-info@https://registry.npmmirror.com/ci-info/-/ci-info-4.4.0.tgz 0ms (cache hit)
+332 http cache @types/yargs-parser@https://registry.npmmirror.com/@types/yargs-parser/-/yargs-parser-21.0.3.tgz 0ms (cache hit)
+333 http cache react-is-18@https://registry.npmmirror.com/react-is/-/react-is-18.3.1.tgz 0ms (cache hit)
+334 http cache @types/istanbul-lib-report@https://registry.npmmirror.com/@types/istanbul-lib-report/-/istanbul-lib-report-3.0.3.tgz 0ms (cache hit)
+335 http cache @sinclair/typebox@https://registry.npmmirror.com/@sinclair/typebox/-/typebox-0.34.49.tgz 0ms (cache hit)
+336 http cache jest-regex-util@https://registry.npmmirror.com/jest-regex-util/-/jest-regex-util-30.4.0.tgz 0ms (cache hit)
+337 http cache @types/istanbul-reports@https://registry.npmmirror.com/@types/istanbul-reports/-/istanbul-reports-3.0.4.tgz 0ms (cache hit)
+338 http cache @jest/pattern@https://registry.npmmirror.com/@jest/pattern/-/pattern-30.4.0.tgz 0ms (cache hit)
+339 http cache @types/yargs@https://registry.npmmirror.com/@types/yargs/-/yargs-17.0.35.tgz 0ms (cache hit)
+340 http cache @jest/schemas@https://registry.npmmirror.com/@jest/schemas/-/schemas-30.4.1.tgz 0ms (cache hit)
+341 http cache js-tokens@https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz 0ms (cache hit)
+342 http cache @babel/helper-validator-identifier@https://registry.npmmirror.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz 0ms (cache hit)
+343 http cache stack-utils@https://registry.npmmirror.com/stack-utils/-/stack-utils-2.0.6.tgz 0ms (cache hit)
+344 http cache picocolors@https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+345 http cache slash@https://registry.npmmirror.com/slash/-/slash-3.0.0.tgz 0ms (cache hit)
+346 http cache picomatch@https://registry.npmmirror.com/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+347 http cache graceful-fs@https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+348 http cache @jest/types@https://registry.npmmirror.com/@jest/types/-/types-30.4.1.tgz 0ms (cache hit)
+349 http cache @babel/code-frame@https://registry.npmmirror.com/@babel/code-frame/-/code-frame-7.29.7.tgz 0ms (cache hit)
+350 http cache @types/stack-utils@https://registry.npmmirror.com/@types/stack-utils/-/stack-utils-2.0.3.tgz 0ms (cache hit)
+351 http cache color-convert@https://registry.npmmirror.com/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+352 http cache @jest/diff-sequences@https://registry.npmmirror.com/@jest/diff-sequences/-/diff-sequences-30.4.0.tgz 0ms (cache hit)
+353 http cache supports-color@https://registry.npmmirror.com/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+354 http cache chalk@https://registry.npmmirror.com/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+355 http cache ansi-styles@https://registry.npmmirror.com/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+356 http cache jest-message-util@https://registry.npmmirror.com/jest-message-util/-/jest-message-util-30.4.1.tgz 0ms (cache hit)
+357 http cache jest-util@https://registry.npmmirror.com/jest-util/-/jest-util-30.4.1.tgz 0ms (cache hit)
+358 http cache jest-diff@https://registry.npmmirror.com/jest-diff/-/jest-diff-30.4.1.tgz 0ms (cache hit)
+359 http cache jest-mock@https://registry.npmmirror.com/jest-mock/-/jest-mock-30.4.1.tgz 0ms (cache hit)
+360 http cache jest-matcher-utils@https://registry.npmmirror.com/jest-matcher-utils/-/jest-matcher-utils-30.4.1.tgz 0ms (cache hit)
+361 http cache csstype@https://registry.npmmirror.com/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+362 http cache @jest/get-type@https://registry.npmmirror.com/@jest/get-type/-/get-type-30.1.0.tgz 0ms (cache hit)
+363 http cache expect@https://registry.npmmirror.com/expect/-/expect-30.4.1.tgz 0ms (cache hit)
+364 http cache pretty-format@https://registry.npmmirror.com/pretty-format/-/pretty-format-30.4.1.tgz 0ms (cache hit)
+365 http cache undici-types@https://registry.npmmirror.com/undici-types/-/undici-types-7.24.6.tgz 0ms (cache hit)
+366 http cache rxjs@https://registry.npmmirror.com/rxjs/-/rxjs-7.8.2.tgz 0ms (cache hit)
+367 http cache @jest/expect-utils@https://registry.npmmirror.com/@jest/expect-utils/-/expect-utils-30.4.1.tgz 0ms (cache hit)
+368 http cache @types/through@https://registry.npmmirror.com/@types/through/-/through-0.0.33.tgz 0ms (cache hit)
+369 http cache @types/semver@https://registry.npmmirror.com/@types/semver/-/semver-7.7.1.tgz 0ms (cache hit)
+370 http cache @types/istanbul-lib-coverage@https://registry.npmmirror.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.6.tgz 0ms (cache hit)
+371 http cache @types/react@https://registry.npmmirror.com/@types/react/-/react-19.2.16.tgz 0ms (cache hit)
+372 http cache @types/progress@https://registry.npmmirror.com/@types/progress/-/progress-2.0.7.tgz 0ms (cache hit)
+373 http cache @types/jsonfile@https://registry.npmmirror.com/@types/jsonfile/-/jsonfile-6.1.4.tgz 0ms (cache hit)
+374 http cache @types/node@https://registry.npmmirror.com/@types/node/-/node-25.9.1.tgz 0ms (cache hit)
+375 http cache @types/jest@https://registry.npmmirror.com/@types/jest/-/jest-30.0.0.tgz 0ms (cache hit)
+376 http cache @types/cross-spawn@https://registry.npmmirror.com/@types/cross-spawn/-/cross-spawn-6.0.6.tgz 0ms (cache hit)
+377 http cache ansi-styles@https://registry.npmmirror.com/ansi-styles/-/ansi-styles-5.2.0.tgz 0ms (cache hit)
+378 http cache @types/fs-extra@https://registry.npmmirror.com/@types/fs-extra/-/fs-extra-11.0.4.tgz 0ms (cache hit)
+379 silly tarball no local data for has-flag@https://registry.npmmirror.com/has-flag/-/has-flag-4.0.0.tgz. Extracting by manifest.
+380 silly tarball no local data for tslib@https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+381 http cache color-name@https://registry.npmmirror.com/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+382 silly tarball no local data for escape-string-regexp@https://registry.npmmirror.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz. Extracting by manifest.
+383 silly tarball no local data for react-is-19@https://registry.npmmirror.com/react-is/-/react-is-19.2.7.tgz. Extracting by manifest.
+384 http cache @types/inquirer@https://registry.npmmirror.com/@types/inquirer/-/inquirer-9.0.9.tgz 0ms (cache hit)
+385 silly tarball no local data for ci-info@https://registry.npmmirror.com/ci-info/-/ci-info-4.4.0.tgz. Extracting by manifest.
+386 silly tarball no local data for @types/yargs-parser@https://registry.npmmirror.com/@types/yargs-parser/-/yargs-parser-21.0.3.tgz. Extracting by manifest.
+387 silly tarball no local data for react-is-18@https://registry.npmmirror.com/react-is/-/react-is-18.3.1.tgz. Extracting by manifest.
+388 silly tarball no local data for @types/istanbul-lib-report@https://registry.npmmirror.com/@types/istanbul-lib-report/-/istanbul-lib-report-3.0.3.tgz. Extracting by manifest.
+389 silly tarball no local data for @sinclair/typebox@https://registry.npmmirror.com/@sinclair/typebox/-/typebox-0.34.49.tgz. Extracting by manifest.
+390 silly tarball no local data for jest-regex-util@https://registry.npmmirror.com/jest-regex-util/-/jest-regex-util-30.4.0.tgz. Extracting by manifest.
+391 silly tarball no local data for @types/istanbul-reports@https://registry.npmmirror.com/@types/istanbul-reports/-/istanbul-reports-3.0.4.tgz. Extracting by manifest.
+392 silly tarball no local data for @jest/pattern@https://registry.npmmirror.com/@jest/pattern/-/pattern-30.4.0.tgz. Extracting by manifest.
+393 silly tarball no local data for @types/yargs@https://registry.npmmirror.com/@types/yargs/-/yargs-17.0.35.tgz. Extracting by manifest.
+394 silly tarball no local data for @jest/schemas@https://registry.npmmirror.com/@jest/schemas/-/schemas-30.4.1.tgz. Extracting by manifest.
+395 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npmmirror.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz. Extracting by manifest.
+396 silly tarball no local data for stack-utils@https://registry.npmmirror.com/stack-utils/-/stack-utils-2.0.6.tgz. Extracting by manifest.
+397 silly tarball no local data for slash@https://registry.npmmirror.com/slash/-/slash-3.0.0.tgz. Extracting by manifest.
+398 silly tarball no local data for picomatch@https://registry.npmmirror.com/picomatch/-/picomatch-4.0.4.tgz. Extracting by manifest.
+399 silly tarball no local data for graceful-fs@https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+400 silly tarball no local data for @jest/types@https://registry.npmmirror.com/@jest/types/-/types-30.4.1.tgz. Extracting by manifest.
+401 silly tarball no local data for @babel/code-frame@https://registry.npmmirror.com/@babel/code-frame/-/code-frame-7.29.7.tgz. Extracting by manifest.
+402 silly tarball no local data for @types/stack-utils@https://registry.npmmirror.com/@types/stack-utils/-/stack-utils-2.0.3.tgz. Extracting by manifest.
+403 silly tarball no local data for color-convert@https://registry.npmmirror.com/color-convert/-/color-convert-2.0.1.tgz. Extracting by manifest.
+404 silly tarball no local data for @jest/diff-sequences@https://registry.npmmirror.com/@jest/diff-sequences/-/diff-sequences-30.4.0.tgz. Extracting by manifest.
+405 silly tarball no local data for supports-color@https://registry.npmmirror.com/supports-color/-/supports-color-7.2.0.tgz. Extracting by manifest.
+406 silly tarball no local data for chalk@https://registry.npmmirror.com/chalk/-/chalk-4.1.2.tgz. Extracting by manifest.
+407 silly tarball no local data for ansi-styles@https://registry.npmmirror.com/ansi-styles/-/ansi-styles-4.3.0.tgz. Extracting by manifest.
+408 silly tarball no local data for jest-message-util@https://registry.npmmirror.com/jest-message-util/-/jest-message-util-30.4.1.tgz. Extracting by manifest.
+409 silly tarball no local data for jest-util@https://registry.npmmirror.com/jest-util/-/jest-util-30.4.1.tgz. Extracting by manifest.
+410 silly tarball no local data for jest-diff@https://registry.npmmirror.com/jest-diff/-/jest-diff-30.4.1.tgz. Extracting by manifest.
+411 silly tarball no local data for jest-mock@https://registry.npmmirror.com/jest-mock/-/jest-mock-30.4.1.tgz. Extracting by manifest.
+412 silly tarball no local data for jest-matcher-utils@https://registry.npmmirror.com/jest-matcher-utils/-/jest-matcher-utils-30.4.1.tgz. Extracting by manifest.
+413 silly tarball no local data for @jest/get-type@https://registry.npmmirror.com/@jest/get-type/-/get-type-30.1.0.tgz. Extracting by manifest.
+414 silly tarball no local data for expect@https://registry.npmmirror.com/expect/-/expect-30.4.1.tgz. Extracting by manifest.
+415 silly tarball no local data for pretty-format@https://registry.npmmirror.com/pretty-format/-/pretty-format-30.4.1.tgz. Extracting by manifest.
+416 silly tarball no local data for undici-types@https://registry.npmmirror.com/undici-types/-/undici-types-7.24.6.tgz. Extracting by manifest.
+417 silly tarball no local data for rxjs@https://registry.npmmirror.com/rxjs/-/rxjs-7.8.2.tgz. Extracting by manifest.
+418 silly tarball no local data for @jest/expect-utils@https://registry.npmmirror.com/@jest/expect-utils/-/expect-utils-30.4.1.tgz. Extracting by manifest.
+419 silly tarball no local data for @types/through@https://registry.npmmirror.com/@types/through/-/through-0.0.33.tgz. Extracting by manifest.
+420 silly tarball no local data for @types/semver@https://registry.npmmirror.com/@types/semver/-/semver-7.7.1.tgz. Extracting by manifest.
+421 silly tarball no local data for @types/istanbul-lib-coverage@https://registry.npmmirror.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.6.tgz. Extracting by manifest.
+422 silly tarball no local data for @types/react@https://registry.npmmirror.com/@types/react/-/react-19.2.16.tgz. Extracting by manifest.
+423 silly tarball no local data for @types/jsonfile@https://registry.npmmirror.com/@types/jsonfile/-/jsonfile-6.1.4.tgz. Extracting by manifest.
+424 silly tarball no local data for @types/progress@https://registry.npmmirror.com/@types/progress/-/progress-2.0.7.tgz. Extracting by manifest.
+425 silly tarball no local data for @types/node@https://registry.npmmirror.com/@types/node/-/node-25.9.1.tgz. Extracting by manifest.
+426 silly tarball no local data for @types/jest@https://registry.npmmirror.com/@types/jest/-/jest-30.0.0.tgz. Extracting by manifest.
+427 silly tarball no local data for @types/cross-spawn@https://registry.npmmirror.com/@types/cross-spawn/-/cross-spawn-6.0.6.tgz. Extracting by manifest.
+428 silly tarball no local data for ansi-styles@https://registry.npmmirror.com/ansi-styles/-/ansi-styles-5.2.0.tgz. Extracting by manifest.
+429 silly tarball no local data for @types/fs-extra@https://registry.npmmirror.com/@types/fs-extra/-/fs-extra-11.0.4.tgz. Extracting by manifest.
+430 silly tarball no local data for color-name@https://registry.npmmirror.com/color-name/-/color-name-1.1.4.tgz. Extracting by manifest.
+431 silly tarball no local data for @types/inquirer@https://registry.npmmirror.com/@types/inquirer/-/inquirer-9.0.9.tgz. Extracting by manifest.
+432 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 672ms (cache skip)
+433 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+433 verbose audit error     at H:\A_Program\node\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+433 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+433 verbose audit error     at async #getReport (H:\A_Program\node\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:275:19)
+433 verbose audit error     at async AuditReport.run (H:\A_Program\node\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:100:19) {
+433 verbose audit error   headers: [Object: null prototype] {
+433 verbose audit error     server: [ 'Tengine' ],
+433 verbose audit error     date: [ 'Fri, 05 Jun 2026 09:19:01 GMT' ],
+433 verbose audit error     'content-type': [ 'application/json' ],
+433 verbose audit error     'transfer-encoding': [ 'chunked' ],
+433 verbose audit error     connection: [ 'keep-alive' ],
+433 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+433 verbose audit error     via: [ 'kunlun1.cn9039[,404666]' ],
+433 verbose audit error     'timing-allow-origin': [ '*' ],
+433 verbose audit error     eagleid: [ '78e9180617806511413726374e' ],
+433 verbose audit error     'x-fetch-attempts': [ '1' ],
+433 verbose audit error     'x-local-cache-status': [ 'skip' ]
+433 verbose audit error   },
+433 verbose audit error   statusCode: 404,
+433 verbose audit error   code: 'E404',
+433 verbose audit error   method: 'POST',
+433 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk',
+433 verbose audit error   body: {
+433 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+433 verbose audit error   },
+433 verbose audit error   pkgid: undefined
+433 verbose audit error }
+434 silly audit error [object Object]
+435 silly audit report null
+436 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/yargs-parser/21.0.3/yargs-parser-21.0.3.tgz 940ms (cache miss)
+437 http fetch GET 200 https://cdn.npmmirror.com/packages/has-flag/4.0.0/has-flag-4.0.0.tgz 950ms (cache miss)
+438 http fetch GET 200 https://cdn.npmmirror.com/packages/react-is/19.2.7/react-is-19.2.7.tgz 947ms (cache miss)
+439 http fetch GET 200 https://cdn.npmmirror.com/packages/stack-utils/2.0.6/stack-utils-2.0.6.tgz 961ms (cache miss)
+440 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/stack-utils/2.0.3/stack-utils-2.0.3.tgz 960ms (cache miss)
+441 http fetch GET 200 https://cdn.npmmirror.com/packages/slash/3.0.0/slash-3.0.0.tgz 965ms (cache miss)
+442 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/istanbul-lib-report/3.0.3/istanbul-lib-report-3.0.3.tgz 975ms (cache miss)
+443 http fetch GET 200 https://cdn.npmmirror.com/packages/supports-color/7.2.0/supports-color-7.2.0.tgz 963ms (cache miss)
+444 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jest/pattern/30.4.0/pattern-30.4.0.tgz 978ms (cache miss)
+445 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/istanbul-reports/3.0.4/istanbul-reports-3.0.4.tgz 980ms (cache miss)
+446 http fetch GET 200 https://cdn.npmmirror.com/packages/chalk/4.1.2/chalk-4.1.2.tgz 972ms (cache miss)
+447 http fetch GET 200 https://cdn.npmmirror.com/packages/graceful-fs/4.2.11/graceful-fs-4.2.11.tgz 986ms (cache miss)
+448 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/through/0.0.33/through-0.0.33.tgz 985ms (cache miss)
+449 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/jsonfile/6.1.4/jsonfile-6.1.4.tgz 982ms (cache miss)
+450 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jest/get-type/30.1.0/get-type-30.1.0.tgz 1004ms (cache miss)
+451 http fetch GET 200 https://cdn.npmmirror.com/packages/ansi-styles/4.3.0/ansi-styles-4.3.0.tgz 1010ms (cache miss)
+452 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jest/diff-sequences/30.4.0/diff-sequences-30.4.0.tgz 1011ms (cache miss)
+453 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/cross-spawn/6.0.6/cross-spawn-6.0.6.tgz 998ms (cache miss)
+454 http fetch GET 200 https://cdn.npmmirror.com/packages/escape-string-regexp/2.0.0/escape-string-regexp-2.0.0.tgz 1033ms (cache miss)
+455 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jest/types/30.4.1/types-30.4.1.tgz 1017ms (cache miss)
+456 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/istanbul-lib-coverage/2.0.6/istanbul-lib-coverage-2.0.6.tgz 1007ms (cache miss)
+457 http fetch GET 200 https://cdn.npmmirror.com/packages/color-name/1.1.4/color-name-1.1.4.tgz 1005ms (cache miss)
+458 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/progress/2.0.7/progress-2.0.7.tgz 1011ms (cache miss)
+459 http fetch GET 200 https://cdn.npmmirror.com/packages/jest-regex-util/30.4.0/jest-regex-util-30.4.0.tgz 1035ms (cache miss)
+460 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/jest/30.0.0/jest-30.0.0.tgz 1014ms (cache miss)
+461 http fetch GET 200 https://cdn.npmmirror.com/packages/ansi-styles/5.2.0/ansi-styles-5.2.0.tgz 1014ms (cache miss)
+462 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/fs-extra/11.0.4/fs-extra-11.0.4.tgz 1015ms (cache miss)
+463 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/code-frame/7.29.7/code-frame-7.29.7.tgz 1031ms (cache miss)
+464 http fetch GET 200 https://cdn.npmmirror.com/packages/ci-info/4.4.0/ci-info-4.4.0.tgz 1049ms (cache miss)
+465 http fetch GET 200 https://cdn.npmmirror.com/packages/jest-message-util/30.4.1/jest-message-util-30.4.1.tgz 1033ms (cache miss)
+466 http fetch GET 200 https://cdn.npmmirror.com/packages/color-convert/2.0.1/color-convert-2.0.1.tgz 1037ms (cache miss)
+467 http fetch GET 200 https://cdn.npmmirror.com/packages/jest-matcher-utils/30.4.1/jest-matcher-utils-30.4.1.tgz 1036ms (cache miss)
+468 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jest/schemas/30.4.1/schemas-30.4.1.tgz 1047ms (cache miss)
+469 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jest/expect-utils/30.4.1/expect-utils-30.4.1.tgz 1036ms (cache miss)
+470 http fetch GET 200 https://cdn.npmmirror.com/packages/jest-mock/30.4.1/jest-mock-30.4.1.tgz 1045ms (cache miss)
+471 http fetch GET 200 https://cdn.npmmirror.com/packages/pretty-format/30.4.1/pretty-format-30.4.1.tgz 1045ms (cache miss)
+472 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/yargs/17.0.35/yargs-17.0.35.tgz 1061ms (cache miss)
+473 http fetch GET 200 https://cdn.npmmirror.com/packages/jest-diff/30.4.1/jest-diff-30.4.1.tgz 1052ms (cache miss)
+474 http fetch GET 200 https://cdn.npmmirror.com/packages/react-is/18.3.1/react-is-18.3.1.tgz 1070ms (cache miss)
+475 http fetch GET 200 https://cdn.npmmirror.com/packages/jest-util/30.4.1/jest-util-30.4.1.tgz 1055ms (cache miss)
+476 http fetch GET 200 https://cdn.npmmirror.com/packages/expect/30.4.1/expect-30.4.1.tgz 1052ms (cache miss)
+477 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-validator-identifier/7.29.7/helper-validator-identifier-7.29.7.tgz 1078ms (cache miss)
+478 http fetch GET 200 https://cdn.npmmirror.com/packages/picomatch/4.0.4/picomatch-4.0.4.tgz 1077ms (cache miss)
+479 http fetch GET 200 https://cdn.npmmirror.com/packages/tslib/2.8.1/tslib-2.8.1.tgz 1106ms (cache miss)
+480 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/react/19.2.16/react-19.2.16.tgz 1434ms (cache miss)
+481 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/inquirer/9.0.9/inquirer-9.0.9.tgz 1771ms (cache miss)
+482 http fetch GET 200 https://cdn.npmmirror.com/packages/undici-types/7.24.6/undici-types-7.24.6.tgz 1868ms (cache miss)
+483 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/semver/7.7.1/semver-7.7.1.tgz 1930ms (cache miss)
+484 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/node/25.9.1/node-25.9.1.tgz 3325ms (cache miss)
+485 http fetch GET 200 https://cdn.npmmirror.com/packages/%40sinclair/typebox/0.34.49/typebox-0.34.49.tgz 7545ms (cache miss)
+486 http fetch GET 200 https://cdn.npmmirror.com/packages/rxjs/7.8.2/rxjs-7.8.2.tgz 9766ms (cache miss)
+487 silly ADD node_modules/has-flag
+488 silly ADD node_modules/escape-string-regexp
+489 silly ADD node_modules/tslib
+490 silly ADD node_modules/react-is-19
+491 silly ADD node_modules/react-is-18
+492 silly ADD node_modules/ci-info
+493 silly ADD node_modules/@types/yargs-parser
+494 silly ADD node_modules/@types/istanbul-lib-report
+495 silly ADD node_modules/@sinclair/typebox
+496 silly ADD node_modules/jest-regex-util
+497 silly ADD node_modules/@types/yargs
+498 silly ADD node_modules/@types/istanbul-reports
+499 silly ADD node_modules/@types/istanbul-lib-coverage
+500 silly ADD node_modules/@jest/schemas
+501 silly ADD node_modules/@jest/pattern
+502 silly ADD node_modules/picocolors
+503 silly ADD node_modules/js-tokens
+504 silly ADD node_modules/@babel/helper-validator-identifier
+505 silly ADD node_modules/stack-utils
+506 silly ADD node_modules/slash
+507 silly ADD node_modules/picomatch
+508 silly ADD node_modules/graceful-fs
+509 silly ADD node_modules/@types/stack-utils
+510 silly ADD node_modules/@jest/types
+511 silly ADD node_modules/@babel/code-frame
+512 silly ADD node_modules/@jest/diff-sequences
+513 silly ADD node_modules/color-name
+514 silly ADD node_modules/color-convert
+515 silly ADD node_modules/supports-color
+516 silly ADD node_modules/ansi-styles
+517 silly ADD node_modules/jest-diff
+518 silly ADD node_modules/chalk
+519 silly ADD node_modules/jest-util
+520 silly ADD node_modules/jest-mock
+521 silly ADD node_modules/jest-message-util
+522 silly ADD node_modules/jest-matcher-utils
+523 silly ADD node_modules/@jest/get-type
+524 silly ADD node_modules/@jest/expect-utils
+525 silly ADD node_modules/csstype
+526 silly ADD node_modules/undici-types
+527 silly ADD node_modules/pretty-format
+528 silly ADD node_modules/pretty-format/node_modules/ansi-styles
+529 silly ADD node_modules/expect
+530 silly ADD node_modules/rxjs
+531 silly ADD node_modules/@types/through
+532 silly ADD node_modules/@types/jsonfile
+533 silly ADD node_modules/@types/semver
+534 silly ADD node_modules/@types/react
+535 silly ADD node_modules/@types/progress
+536 silly ADD node_modules/@types/node
+537 silly ADD node_modules/@types/jest
+538 silly ADD node_modules/@types/inquirer
+539 silly ADD node_modules/@types/fs-extra
+540 silly ADD node_modules/@types/cross-spawn
+541 verbose cwd C:\Users\13429\AppData\Local\Microsoft\TypeScript\6.0
+542 verbose os Windows_NT 10.0.26200
+543 verbose node v24.15.0
+544 verbose npm  v11.12.1
+545 verbose exit 0
+546 info ok

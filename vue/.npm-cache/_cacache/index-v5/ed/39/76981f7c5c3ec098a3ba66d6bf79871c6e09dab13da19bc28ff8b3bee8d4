@@ -1,0 +1,2 @@
+
+7b5fc80c4679211f77ceb015988895c7fae2fe61	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/slash","integrity":null,"time":1780651139681,"size":"262","metadata":{"time":1780651139681,"url":"http://registry.npmmirror.com/slash","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 05 Jun 2026 09:19:00 GMT","location":"https://registry.npmmirror.com/slash"},"options":{"compress":true},"status":301}}

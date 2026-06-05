@@ -1,0 +1,2 @@
+
+2d6788594e9a83be77f88536d11af803e0cbd743	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/path-browserify","integrity":null,"time":1780657848632,"size":"262","metadata":{"time":1780657848631,"url":"http://registry.npmmirror.com/path-browserify","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 05 Jun 2026 11:10:49 GMT","location":"https://registry.npmmirror.com/path-browserify"},"options":{"compress":true},"status":301}}

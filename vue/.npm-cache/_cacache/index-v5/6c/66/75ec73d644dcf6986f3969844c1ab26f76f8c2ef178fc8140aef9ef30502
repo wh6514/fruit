@@ -1,0 +1,2 @@
+
+a4049aa8b035ef194e0513422903c2ccb51b3dde	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/escape-string-regexp","integrity":null,"time":1780651140144,"size":"262","metadata":{"time":1780651140144,"url":"http://registry.npmmirror.com/escape-string-regexp","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 05 Jun 2026 09:19:00 GMT","location":"https://registry.npmmirror.com/escape-string-regexp"},"options":{"compress":true},"status":301}}

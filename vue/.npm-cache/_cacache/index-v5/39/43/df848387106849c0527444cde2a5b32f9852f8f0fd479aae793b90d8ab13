@@ -1,0 +1,2 @@
+
+45cd61295429d2b9b22108abbc3c8e26846cd829	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/jest-diff","integrity":null,"time":1780651139579,"size":"262","metadata":{"time":1780651139579,"url":"http://registry.npmmirror.com/jest-diff","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 05 Jun 2026 09:18:59 GMT","location":"https://registry.npmmirror.com/jest-diff"},"options":{"compress":true},"status":301}}

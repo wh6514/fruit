@@ -1,0 +1,2 @@
+
+07ad356550c1652675ecdddd72d6599abc158faa	{"key":"make-fetch-happen:request-cache:http://registry.npmmirror.com/typescript","integrity":null,"time":1780657848837,"size":"262","metadata":{"time":1780657848837,"url":"http://registry.npmmirror.com/typescript","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Fri, 05 Jun 2026 11:10:49 GMT","location":"https://registry.npmmirror.com/typescript"},"options":{"compress":true},"status":301}}
